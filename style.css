@@ -1,5 +1,5 @@
 body{
-	background-color:#CAE2D4;
+	background-color:#ECDCDA;
 	padding:150px;
 	font-family: 'Cormorant Garamond', serif;
 }
@@ -10,10 +10,11 @@ h1{
 }
 
 img{
-	width:300px;
-	height:300px;
-	object-fit: cover;
+	width:400px;
+	height:400px;
+	object-fit: center;
 }
+
 
 .big-size{
 	width:700px;
@@ -33,18 +34,75 @@ img{
 }
 
 div	{
-	background-color: #ffffff;
 	padding-top: 10px;
-	padding-left: 10px;
+	
 }
 
-.border{
-	border: 2px solid #252524;
+.pate {
+	background-color: #EACCC3;
+	padding-right: 50px;
+	padding-left: 50px;
+	display: flex;
+	justify-content: space-around;
+	border: 2px solid #D8A57F;
+	
+}
+
+.video {
+	background-color: #F5EFE0;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.poisson{
+	background-color: #EACCC3;
+	padding-right: 50px;
+	padding-left: 50px;
+	display: flex;
+	justify-content: space-around;
+	border: 2px solid #D8A57F;
+}
+
+.viande{
+	background-color: #EACCC3;
+	padding-right: 50px;
+	padding-left: 50px;
+	display: flex;
+	justify-content: space-around;
+	border: 2px solid #D8A57F;
+}
+
+.fruit {
+	background-color: #EACCC3;
+	padding-right: 50px;
+	padding-left: 50px;
+	display: flex;
+	justify-content: space-around;
+	border: 2px solid #D8A57F;
+}
+
+.video {
+	background-color: #EACCC3;
+	padding-right: 50px;
+	padding-left: 50px;
+	display: flex;
+	justify-content: space-around;
+	border: 2px solid #D8A57F;
+}
+
+.brunch {
+	background-color: #EACCC3;
+	padding-right: 50px;
+	padding-left: 50px;
+	display: flex;
+	justify-content: space-around;
+	border: 2px solid #D8A57F;
 }
 
 .element-aligned {
-	display:flex;
+	display: flex;
 	justify-content: space-around;
+	border: 2px solid #D8A57F;
 }
 
 .navigation-aligned{
@@ -53,9 +111,25 @@ div	{
 	padding: 30px
 }
 
+
+.barre {
+	padding-top: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 15px;
+	background-color: #ECDCDA;
+	border: 5px solid #ECDCDA;
+	display: flex;
+	justify-content: space-around;
+
+}
+.element-center {
+	background: #EACCC3
+
+} 
+
 a{
 	color: black; 
-	text-decoration: none;
 }
 
 a:hover {
